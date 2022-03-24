@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --Soft-blue: hsl(215, 51%, 70%, .3);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+}
+
+
+.fondo{
+    background-color: var(--Very-dark-blue-main-BG);
+    width: 100vw; /*VW es el viewport de la pantalla*/
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido-tarjeta{
+    background-color: var(--Very-dark-blue-card-BG);
+    width: 400px; /*VW es el viewport de la pantalla*/
+    height: 600px;
+    font-size: large;
+    border-radius: 1.5em;    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    margin: 0;
+
+}
+.container{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.container img{
+    border-radius: 15px;
+    width: inherit;
+    height: inherit;
+}
+.info-container{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+.text{
+    font-family: Outfit;
+    margin: 10px 0 10px 5px ;
+}
+.titulo{
+    color: wheat;
+    font-weight: 600;
+    font-size:x-large;
+}
+.texto-transparente{
+    color: var(--Soft-blue);
+}
+.row-container{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+.upper{
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Very-dark-blue-line);
+    width: 100%;
+    height: 20%;
+}
+.icono{
+    margin-right: 10px;
+}
+.left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-side .text{
+    color: var(--Cyan);
+    font-weight: 600;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name{
+    color: wheat;
+}
+.bottom{
+    height: 30%;
+    margin-top: 15px;
+}
+.bottom img{
+    border: 1px solid white;
+}
