@@ -103,6 +103,7 @@ body{
 }
 .bottom img{
     border: 1px solid white;
-    height: 50%;
+    border-radius: 30%;
+    height: 40px;
     width: auto;
 }
