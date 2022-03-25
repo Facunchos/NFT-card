@@ -12,7 +12,7 @@
 .fondo{
     background-color: var(--Very-dark-blue-main-BG);
     width: 100vw; /*VW es el viewport de la pantalla*/
-    height: 120vh;
+    height: 120vh;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +45,8 @@ body{
     height: inherit;
 }
 .info-container{
-    display: flex;
-    flex-direction: column;
     margin-top: 20px;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 .text{
@@ -95,15 +93,10 @@ body{
     color: wheat;
 }
 .bottom{
-    height: 30%;
+    height: 100px;
     margin-top: 15px;
 }
-.row-container{
-    display: flex;
-}
 .bottom img{
+    height: 30px;
     border: 1px solid white;
-    border-radius: 30%;
-    height: 40px;
-    width: auto;
 }
